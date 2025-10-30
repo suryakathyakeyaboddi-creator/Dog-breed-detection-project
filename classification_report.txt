@@ -1,0 +1,130 @@
+======================================================================
+MobileNetV2 + SVM Classification Report
+======================================================================
+
+Overall Accuracy: 70.10%
+Total Classes: 116
+Training Time: 236.1 minutes
+
+                           precision    recall  f1-score   support
+
+            affenpinscher      0.846     0.846     0.846        26
+             afghan_hound      0.821     0.920     0.868        25
+                  african      0.833     0.909     0.870        33
+                 airedale      0.767     0.622     0.687        37
+         american_terrier      0.400     0.400     0.400        30
+              appenzeller      0.607     0.630     0.618        27
+       australian_terrier      0.647     0.611     0.629        36
+                  basenji      0.750     0.706     0.727        34
+             basset_hound      0.583     0.724     0.646        29
+                   beagle      0.714     0.735     0.725        34
+       bedlington_terrier      0.828     0.828     0.828        29
+         bernese_mountain      0.923     0.947     0.935        38
+         blenheim_spaniel      0.719     0.742     0.730        31
+              blood_hound      0.759     0.815     0.786        27
+                 bluetick      0.750     0.828     0.787        29
+            border_collie      0.722     0.839     0.776        31
+           border_terrier      0.743     0.897     0.812        29
+                   borzoi      1.000     0.571     0.727        21
+           boston_bulldog      0.694     0.735     0.714        34
+                  bouvier      0.789     0.652     0.714        23
+                    boxer      0.679     0.655     0.667        29
+                brabancon      0.778     0.750     0.764        28
+                   briard      0.543     0.704     0.613        27
+         brittany_spaniel      0.800     0.593     0.681        27
+             bull_mastiff      0.676     0.852     0.754        27
+            cairn_terrier      0.636     0.800     0.709        35
+           cardigan_corgi      0.500     0.615     0.552        26
+     chesapeake_retriever      0.778     0.750     0.764        28
+                chihuahua      0.519     0.560     0.538        25
+                     chow      0.970     0.889     0.928        36
+                  clumber      0.864     0.826     0.844        23
+           cocker_spaniel      0.722     0.765     0.743        34
+                coonhound      0.905     0.731     0.809        26
+          curly_retriever      0.810     0.680     0.739        25
+           dandie_terrier      0.767     0.793     0.780        29
+                    dhole      0.857     0.800     0.828        30
+                    dingo      0.741     0.690     0.714        29
+                 doberman      0.579     0.815     0.677        27
+            english_hound      0.556     0.455     0.500        22
+           english_setter      0.821     0.767     0.793        30
+         english_sheepdog      0.692     0.621     0.655        29
+         english_springer      0.763     0.967     0.853        30
+              entlebucher      0.788     0.650     0.712        40
+                   eskimo      0.524     0.393     0.449        28
+     flatcoated_retriever      0.733     0.786     0.759        28
+              fox_terrier      0.720     0.692     0.706        26
+           french_bulldog      0.600     0.724     0.656        29
+           german_pointer      0.714     0.741     0.727        27
+           germanshepherd      0.655     0.704     0.679        27
+         golden_retriever      0.706     0.706     0.706        34
+            gordon_setter      0.889     0.889     0.889        27
+               great_dane      0.371     0.520     0.433        25
+              groenendael      0.864     0.760     0.809        25
+                    husky      0.553     0.568     0.560        37
+             ibizan_hound      0.852     0.767     0.807        30
+             irish_setter      0.810     0.654     0.723        26
+            irish_spaniel      0.786     0.786     0.786        28
+            irish_terrier      0.583     0.452     0.509        31
+          irish_wolfhound      0.600     0.556     0.577        27
+        italian_greyhound      0.625     0.714     0.667        28
+         japanese_spaniel      0.758     0.781     0.769        32
+                 keeshond      0.900     1.000     0.947        27
+                   kelpie      0.459     0.586     0.515        29
+        kerryblue_terrier      0.833     0.870     0.851        23
+                 komondor      1.000     0.650     0.788        20
+                   kuvasz      0.692     0.692     0.692        26
+                 labrador      0.519     0.750     0.614        36
+         lakeland_terrier      0.577     0.429     0.492        35
+                 leonberg      0.762     0.727     0.744        22
+                    lhasa      0.486     0.515     0.500        33
+                 malamute      0.600     0.667     0.632        27
+                 malinois      0.636     0.519     0.571        27
+                  maltese      0.717     0.844     0.776        45
+          mexicanhairless      0.870     0.714     0.784        28
+       miniature_pinscher      0.700     0.636     0.667        33
+         miniature_poodle      0.438     0.259     0.326        27
+                      mix      0.519     0.483     0.500        29
+             newfoundland      0.833     0.667     0.741        30
+          norfolk_terrier      0.448     0.464     0.456        28
+       norwegian_elkhound      0.900     0.771     0.831        35
+          norwich_terrier      0.562     0.600     0.581        30
+               otterhound      0.857     0.818     0.837        22
+                 papillon      0.939     0.861     0.899        36
+                 pekinese      0.704     0.792     0.745        24
+                 pembroke      0.656     0.677     0.667        31
+               pomeranian      0.889     0.842     0.865        38
+                      pug      0.786     0.717     0.750        46
+                 pyrenees      0.618     0.677     0.646        31
+                  redbone      0.739     0.654     0.694        26
+               rottweiler      0.778     0.778     0.778        27
+                   saluki      0.629     0.759     0.688        29
+                  samoyed      0.906     0.879     0.892        33
+               schipperke      0.857     0.720     0.783        25
+       scottish_deerhound      0.727     0.571     0.640        28
+         scottish_terrier      0.697     0.885     0.780        26
+         sealyham_terrier      0.857     0.692     0.766        26
+        shetland_sheepdog      0.857     0.889     0.873        27
+                  shihtzu      0.575     0.590     0.582        39
+            silky_terrier      0.514     0.559     0.535        34
+staffordshire_bullterrier      0.500     0.385     0.435        26
+          standard_poodle      0.560     0.500     0.528        28
+                stbernard      0.862     0.926     0.893        27
+           sussex_spaniel      0.824     0.737     0.778        19
+           swiss_mountain      0.583     0.560     0.571        25
+          tibetan_mastiff      0.810     0.680     0.739        25
+          tibetan_terrier      0.619     0.667     0.642        39
+               toy_poodle      0.586     0.607     0.596        28
+              toy_terrier      0.759     0.629     0.688        35
+                   vizsla      0.769     0.769     0.769        26
+             walker_hound      0.550     0.440     0.489        25
+               weimaraner      0.688     0.786     0.733        28
+            welsh_spaniel      0.731     0.704     0.717        27
+     westhighland_terrier      0.763     0.906     0.829        32
+          wheaten_terrier      0.577     0.577     0.577        26
+                  whippet      0.486     0.531     0.507        32
+        yorkshire_terrier      0.581     0.621     0.600        29
+
+                 accuracy                          0.701      3395
+                macro avg      0.709     0.699     0.700      3395
+             weighted avg      0.708     0.701     0.700      3395
